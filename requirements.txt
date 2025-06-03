@@ -1,0 +1,10 @@
+flask
+opencv-python
+mediapipe
+numpy
+scikit-learn
+pillow
+soundfile
+librosa
+matplotlib
+pandas

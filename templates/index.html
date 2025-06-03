@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Health AI App</title>
+</head>
+<body>
+    <h1>Health AI Assistant</h1>
+    <h2>Image Analysis</h2>
+    <form action="/analyze_image" method="post" enctype="multipart/form-data">
+        <input type="file" name="image_file" required>
+        <button type="submit">Analyze Image</button>
+    </form>
+    <h2>Voice Analysis</h2>
+    <form action="/analyze_voice" method="post" enctype="multipart/form-data">
+        <input type="file" name="audio_file" required>
+        <button type="submit">Analyze Audio</button>
+    </form>
+    <h2>Wearable Data Analysis</h2>
+    <form action="/analyze_wearable" method="post" enctype="multipart/form-data">
+        <input type="file" name="wearable_file" required>
+        <button type="submit">Analyze Data</button>
+    </form>
+    <h2>Facial Analysis</h2>
+    <form action="/analyze_face" method="post" enctype="multipart/form-data">
+        <input type="file" name="face_file" required>
+        <button type="submit">Analyze Face</button>
+    </form>
+</body>
+</html>
